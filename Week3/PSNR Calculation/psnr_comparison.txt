@@ -1,0 +1,4 @@
+PSNR Value for Histogram Equalisation  14.13208046534746
+PSNR Value for Histogram Matching  13.721811068771785
+PSNR Value for Double Plateaus Histogram Equalisation  21.522595397489383
+PSNR Value for Top Hat Transform  9.8543439512946

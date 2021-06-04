@@ -1,0 +1,15 @@
+4.png
+PSNR Value for Histogram Equalisation  12.703278966200578
+PSNR Value for Double Plateaus Histogram Equalisation  23.120169645920832
+
+8.png
+PSNR Value for Histogram Equalisation  9.144459072768608
+PSNR Value for Double Plateaus Histogram Equalisation  24.936549606777547
+
+634.png
+PSNR Value for Histogram Equalisation  14.333442838276087
+PSNR Value for Double Plateaus Histogram Equalisation  18.820349972354023
+
+4119.png
+PSNR Value for Histogram Equalisation  9.864933950683211
+PSNR Value for Double Plateaus Histogram Equalisation  22.864850993435
