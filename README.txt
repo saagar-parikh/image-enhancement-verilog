@@ -1,0 +1,136 @@
+Week1
+
+	Histogram Equalisation
+
+		8-after-func-histequal.png	-	Enhanced Image after performing Histogram Equalisation
+							using in-built OpenCV function
+
+		8-after-manual-histequal.png	-	Enhanced Image after performing Histogram Equalisation
+							using manually written Histogram Equalisation code
+
+		8-equalized-hist.png		-	Histogram of enhanced image
+
+		8-orig-hist.png			-	Histogram of original image
+
+		8.png				-	Original Image
+
+		histequal.py			-	Python OpenCV code containing Histogram Equalisation
+							algorithm
+
+
+	Histogram Matching
+
+		histmatch.py			-	Python OpenCV code containing Histogram Matching
+							algorithm
+
+		ref-orig-hist.png		-	Histogram of original reference image
+
+		ref.jpeg			-	Original Reference Image
+
+		target-after-hist-match.png	-	Enhanced Target Image after performing Histogram
+							Matching
+
+		target-match-hist.png		-	Histogram of target image after performing Histogram
+							Matching
+
+		target-orig-hist.png		-	Histogram of target original image
+
+		target.jpeg			-	Original Target Image
+
+Week2
+
+	Double Plateaus Histogram Equalisation
+
+		1-clipped-freq-graph.png	-	Graph showing clipped frequencies of enhanced image
+							after performing Double Plateaus Histogram Equalisation
+
+		1-dphe-hist.png			-	Histogram of enhanced image
+
+		1-dphe-img.png			-	Enhanced Image
+
+		1-orig-hist.png			-	Histogram of original Image
+
+		1.png				-	Original Image
+
+		dphe.py				-	Python OpenCV code containing Double Plateaus Histogram
+							Equalisation algorithm
+
+	Top Hat Transform
+
+		128-tophat-img.png		-	Enhaced Image after performing Top Hat Transform
+
+		128.png				-	Original Image
+
+		tophat.py			-	Python OpenCV code containing Top Hat Transform algorithm
+
+Week3
+
+	PSNR Calculation
+		
+		88_dphe.png			-	Enhanced Image after DPHE
+
+		88_enhanced.png			-	Reference Image with which enhanced images using all
+							algorithms will be compared for PSNR calculation
+
+		88_he.png			-	Enhanced Image after HE
+
+		88_tophat.png			-	Enhanced Image after Top Hat Transform
+
+		88.png				-	Original Image on which 4 algorithms are applied
+
+		psnr_calculation.py		-	Python code containing PSNR calculation
+
+		psnr_comparison.txt		-	Text file containing PSNR values of the 4 algorithms
+
+		ref.jpeg			-	Reference image for DPHE, PSNR will be calculated for
+							DPHE using this image as reference
+
+		target-after-hist-match.jpeg	-	Enhanced Image after performing Histogram Matching
+							algorithm
+
+	Read Images
+
+		4119_binary.txt			-	Contains the image in binary format
+
+		4119_decimal.txt		-	Contains the grayscale values of each pixel in decimal
+
+		4119.png			-	Original Image
+
+		binary_conversion.py		-	Python code to convert image into binary format
+
+		decimal_conversion		-	Python code to convert image into decimal format
+
+		ReadImage.v			-	Verilog code to read and store image into the memory
+
+Week4
+
+	Algorithms
+
+		dphe.v				-	Implementation of DPHE Algorithm on Vivado (Design)
+
+		HistEqual.v			-	Implementation of HE Algorithm on Vivado (Design)
+
+		matrix_to_image.py		-	Python code to convert binary format to an image
+
+		testbenchdphe.v			-	Implementation of DPHE Algorithm on Vivado (Testbench)
+
+		TestHistEqual.v			-	Implementation of HE Algorithm on Vivado (Testbench)
+
+	Images
+
+		4_190x150.png			-	Original image
+
+		4_binary_190x150.txt		-	Original image in binary format
+
+		4_DPHE_vivado.png		-	Output image of DPHE algorithm
+
+		4_DPHE_vivado.txt		-	Output image of DPHE algorithm in binary format
+
+		4_HE_vivado.png			-	Output image of HE algorithm
+
+		4_HE_vivado.txt			-	Output image of HE algorithm in binary format
+
+		4_Matlab.png			-	Enhanced image from MATLAB code, this will be used
+							as reference image to calculate PSNR values
+
+		[Same naming convention is followed for 3 more images]
