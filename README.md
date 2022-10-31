@@ -4,13 +4,18 @@ Applying various image enhancement algorithms on Night Vision IR images using Xi
 Details about the file names in `filenames.txt`.
 
 ## Brief
-**Aim:** To apply image enhancement algorithms on Night Vision infrared images using Xilinx Vivado.
+* **Aim:** To apply image enhancement algorithms on Night Vision infrared images using Xilinx Vivado.
 
-**Algorithms used:**
-1. Histogram Equalisation
-2. Histogram Matching
-3. Double Plateau Histogram Equalisation
-4. Top Hat Transform
+* **Algorithms used:**
+  1. [Histogram Equalisation](#1-histogram-equalisation)
+  2. [Histogram Matching](#2-histogram-matching)
+  3. [Double Plateau Histogram Equalisation](#3-double-plateau-histogram-equalisation)
+  4. [Top Hat Transform](#4-top-hat-transform)
+
+* [**Performance Comparison**](#performance-comparison-of-the-algorithms)
+* [**Verilog Implementation**](#verilog-implementation)
+* [**Future Scope**](#future-scope)
+* [**Acknowledgement**](#acknowledgement)
 
 **Dataset:** [ir:iricra2014 – ASL Datasets](https://projects.asl.ethz.ch/datasets/doku.php?id=ir:iricra2014)
 
@@ -183,7 +188,7 @@ Details about the file names in `filenames.txt`.
  </tr>
 </table>
 
-## Comparing the performance of the Algorithms
+## Performance Comparison of the Algorithms
 * **Peak Signal to Noise Ratio (PSNR)**: It uses the mean squared error of all the pixels between the two images to compute an expression.
 * The higher the PSNR value, the better the image enhancement.
 * We compare the PSNR value of all the 4 new images with an enhanced image obtained using an advanced, inbuilt image processing function on MATLAB.
