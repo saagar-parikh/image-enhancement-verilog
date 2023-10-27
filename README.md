@@ -1,7 +1,7 @@
 # Enhancement of Night Vision IR Images using Verilog
 Applying various image enhancement algorithms on Night Vision IR images using Xilinx Vivado.
 
-Details about the file names in `filenames.txt`.
+Details about the file names in [`filenames.md`](filenames.md).
 
 ## Brief
 * **Aim:** To apply image enhancement algorithms on Night Vision infrared images using Xilinx Vivado.
